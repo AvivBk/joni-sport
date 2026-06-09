@@ -10,6 +10,8 @@ body{font-family:'Heebo',system-ui,sans-serif;background:var(--bg);color:var(--t
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+/* full-bleed bars: stretch edge-to-edge with comfortable side padding */
+.topbar .wrap,.masthead .wrap,.mainnav .wrap,.ticker .wrap,footer .wrap{max-width:none;padding:0 clamp(20px,4vw,56px)}
 .tab-num{font-family:'Roboto',sans-serif;font-variant-numeric:tabular-nums}
 
 /* Topbar */
